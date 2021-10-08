@@ -1,5 +1,5 @@
 <!--Não sei pra que serve o 'prefix'-->
-<html>
+<html lang="en">
 
   <head>
     <title>Meu primeiro site com Open Graph</title>
