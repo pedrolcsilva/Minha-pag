@@ -11,7 +11,7 @@
     <meta property="og:image:height" content="370"/>
     <meta property="og:image:width"  content="560"/>
     <meta property="og:description" 
-      content="Um site com o protocolo Open Graph implementado para estudo no ALPHA EDTECH" />
+      content="Um site com o protocolo Open Graph, implementado para estudo no ALPHA EDTECH" />
 	  
 	 <!--Não entendi bem qual a função do 'og:locale' e do 'og:site_name'-->
     <meta property="og:locale" content="pt_BR" />
