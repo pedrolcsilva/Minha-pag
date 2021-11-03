@@ -9,23 +9,23 @@ main{
     display: flex;
     background: #07a662;
     padding: 35px;
-    width: 70%;
+    width: 50%;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-main + section {
+main ~ section {
     margin-top: 10px;
-    display: flex;
     background-color: white;
     padding: 35px;
-    width: 70%;
+    width: 50%;
     
 }
 
 .imgSVG {
     display: flex;
     margin-top: 40px;
+    margin-bottom: 20px;
     justify-content: space-around;
 }
 
@@ -35,6 +35,12 @@ b {
 
 h1, p {
     font-family: League;
+}
+
+span {
+    margin-top: 25px;
+    font-size: 1.1em;
+    color: #07a662;
 }
 
 .head {
@@ -58,6 +64,7 @@ p {
 .text {
     margin-top: 25px;
     color: rgba(0, 0, 0, 0.7);
+    text-align: center;
 }
 
 .icon {
