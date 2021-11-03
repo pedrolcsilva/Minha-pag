@@ -50,7 +50,10 @@ span {
 .perfil {
     height: 226.67px;
     width: 170px;
-    border: 7px inset #0d804e;
+    border-left: 3px solid #0d804e;
+    border-bottom: 3px solid #0d804e;
+    border-top: 3px solid #0d804e36;
+    border-right: 3px solid #0d804e36;
 }
 
 h1 {
