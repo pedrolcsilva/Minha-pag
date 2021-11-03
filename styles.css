@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(218, 218, 218);
+}
+
+main{
+    display: flex;
+    background: #07a662;
+    padding: 35px;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main + section {
+    margin-top: 10px;
+    display: flex;
+    background: #07a662;
+    padding: 35px;
+    width: 70%;
+    
+}
+
+h1, p {
+    font-family: League;
+    color: white;
+}
+
+.perfil {
+    height: 200px;
+    width: 170px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+p {
+    margin: 0;
+    
+}
+
+div {
+    margin-top: 20px;
+}
+
+svg {
+    margin-right: 10px;
+}
+
+.icons {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0.4px solid black;
+}
+
+.subt {
+    font-size: 1.2em;
+    
+}
+
+.pinfo {
+    color: yellow;
+}
+
+
+
+@font-face {
+    font-family: "League";
+    src: url("fonts/leaguespartan-bold-webfont.woff");
+  }
