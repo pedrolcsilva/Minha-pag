@@ -48,8 +48,9 @@ span {
 }
 
 .perfil {
-    height: 200px;
+    height: 226.67px;
     width: 170px;
+    border: 7px inset #0d804e;
 }
 
 h1 {
@@ -85,7 +86,63 @@ a {
     color: yellow;
 }
 
+.value {
+    text-align: center;
+}
 
+.chart{
+    display: flex;
+    overflow: visible;
+    margin: 20px auto;
+}
+
+.circleF {
+    fill:none;
+    stroke:#00000038;
+    stroke-width:7px;
+    stroke-linecap: round;
+    
+}
+
+.circle {
+    fill:none;
+    stroke:#07a662;
+    stroke-width:7px;
+    stroke-linecap: round;
+    stroke-dasharray: 315;
+    animation: dash 1s linear forwards;
+    
+}
+
+.html{
+    stroke-dashoffset: calc(0.4*315);
+}
+
+.css{
+    stroke-dashoffset: calc(0.4*315);
+}
+
+.ingles{
+    stroke-dashoffset: calc(0.3*315);
+}
+
+#skills {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+svg text {
+    font-family: League;
+    text-align: center;
+    text-anchor: middle;
+}
+
+@keyframes dash {
+    0% {
+      stroke-dashoffset: 315;
+    }
+  }
 
 @font-face {
     font-family: "League";
