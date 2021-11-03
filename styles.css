@@ -12,10 +12,16 @@ main{
     flex-flow: wrap;
     justify-content: space-between;
     align-items: center;
+    width: 70%;
 }
 
 section {
     text-align: center;
+    width: 70%;
+}
+
+#cabeçalho {
+    flex-basis: 40%;
 }
 
 main ~ section {
@@ -38,6 +44,10 @@ b {
 
 h1, p {
     font-family: League;
+}
+
+.title {
+    font-size: 200%;
 }
 
 span {
@@ -71,19 +81,47 @@ h1 {
     margin: 0;
     font-size: 2em;
 }
+
 p {
     margin: 0;
     
 }
 
+h3 {
+    font-family: League;
+    margin-top: 0;
+}
+
 .text {
-    margin-top: 25px;
     color: rgba(0, 0, 0, 0.7);
     text-align: center;
+    font-size: 100%;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.textsub {
+    margin-top: 25px;
+    color: #07a662;
+    text-align: center;
+    font-size: 100%;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#col {
+    width: 10%;
+    text-align: center;
+    
 }
 
 .icons {
-    width: 30%;
     display: inline-flex;
     margin-top: 20px;
     justify-content: space-around;
@@ -100,10 +138,12 @@ a {
     text-decoration: none;
     border-radius: 50%;
     width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .subt {
-    font-size: 1.2em;
+    font-size: 110%;
     
 }
 
@@ -115,7 +155,7 @@ a {
     text-align: center;
 }
 
-.chart{
+.graphBody{
     display: flex;
     overflow: visible;
     margin: 20px auto;
@@ -135,7 +175,7 @@ a {
     stroke-width:7px;
     stroke-linecap: round;
     stroke-dasharray: 315;
-    animation: dash 1s linear forwards;
+    animation: animate 1s linear forwards;
     
 }
 
@@ -161,9 +201,10 @@ svg text {
     font-family: League;
     text-align: center;
     text-anchor: middle;
+    font-size: 100%;
 }
 
-@keyframes dash {
+@keyframes animate {
     0% {
       stroke-dashoffset: 315;
     }
