@@ -17,14 +17,27 @@ main{
 main + section {
     margin-top: 10px;
     display: flex;
-    background: #07a662;
+    background: white;
     padding: 35px;
     width: 70%;
     
 }
 
+.imgSVG {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+b {
+    color: rgba(0, 0, 0, 0.85);
+}
+
 h1, p {
     font-family: League;
+}
+
+.head {
     color: white;
 }
 
@@ -42,18 +55,18 @@ p {
     
 }
 
-div {
+.text {
+    margin-top: 25px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.icon {
     margin-top: 20px;
 }
 
-svg {
+a {
     margin-right: 10px;
-}
-
-.icons {
-    background-color: #fff;
-    border-radius: 50%;
-    border: 0.4px solid black;
+    text-decoration: none;
 }
 
 .subt {
