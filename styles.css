@@ -9,7 +9,6 @@ main{
     display: flex;
     background: #07a662;
     padding: 35px;
-    width: 50%;
     flex-flow: wrap;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +22,6 @@ main ~ section {
     margin-top: 10px;
     background-color: white;
     padding: 35px;
-    width: 50%;
     
 }
 
