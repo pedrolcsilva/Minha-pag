@@ -10,8 +10,13 @@ main{
     background: #07a662;
     padding: 35px;
     width: 50%;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    text-align: center;
 }
 
 main ~ section {
@@ -48,8 +53,16 @@ span {
 }
 
 .perfil {
-    height: 226.67px;
-    width: 170px;
+    height: 190px;
+    width: 190px;
+}
+
+.imgdiv {
+    display: flex;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    overflow: hidden;
     border-left: 3px solid #0d804e;
     border-bottom: 3px solid #0d804e;
     border-top: 3px solid #0d804e36;
@@ -71,13 +84,24 @@ p {
     text-align: center;
 }
 
-.icon {
+.icons {
+    width: 30%;
+    display: inline-flex;
     margin-top: 20px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    height: 36px;
+}
+
+a svg:hover {
+    width: 32px;
+    height: 32px;
 }
 
 a {
-    margin-right: 10px;
     text-decoration: none;
+    border-radius: 50%;
+    width: fit-content;
 }
 
 .subt {
